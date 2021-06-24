@@ -16,7 +16,12 @@ class AppWidget extends StatelessWidget {
         title: 'Play Flow',
         theme: ThemeData(
             primaryColor: AppColors.primary),
-        home: const LoginPage()
+        initialRoute: "/splash",
+        routes: {
+          "/splash": (context) => SplashPage(),
+          "/home": (context) => HomePage(),
+          "/login": (context) => LoginPage()
+      }
     );
   }
 }
