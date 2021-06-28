@@ -16,14 +16,14 @@ class BarcodeScannerPage extends StatefulWidget {
 class _BarcodeScannerPageState extends State<BarcodeScannerPage> {
   @override
   Widget build(BuildContext context) {
-    return BottonSheetWidget(
+   /** return BottonSheetWidget(
       title: "Não foi possível identificar um código de barras",
       subTitle: "Tente escanear novamente o seu boleto",
       primaryLabel: "Escanear Novamente",
       primaryOnPressed: (){},
       secundaryLabel: "Digitar código",
       secundaryOnPressed: (){},
-    );
+    );*/
     return SafeArea(
       top: true,
       bottom: true,
